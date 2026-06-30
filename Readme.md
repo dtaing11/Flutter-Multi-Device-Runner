@@ -2,6 +2,10 @@
 
 A small Python script that runs `flutter run` on multiple devices at once, **inside a single terminal**, while keeping every interactive Flutter key command fully functional on all devices simultaneously — hot reload, hot restart, screenshots, widget inspector, and the rest.
 
+## Project Structure
+
+![Project structure](https://github.com/dtaing11/Flutter-Multi-Device-Runner/blob/main/image.png?raw=true)
+
 ## Why this exists
 
 Flutter natively supports `flutter run -d all`, but that targets *every* connected device, including desktop runtimes (e.g. macOS) you usually don't want. Running two separate `flutter run` processes side-by-side normally breaks interactivity, because:
